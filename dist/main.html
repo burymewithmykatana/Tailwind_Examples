@@ -14,36 +14,58 @@
             <img src="/icons/logo-main.png" alt="Logo">
         </div>
 
-        <div class="flex justify-center items-center gap-24 ">
+        <div class="group flex justify-center flex-row-reverse items-center gap-6 font-Estedad-VF ">
             <div class="state">
                 صفحه اصلی
             </div>
-            <div class="state flex flex-row justify-center content-center hover:font-bold hover:text-green-primary ">
-                شعبه
-                <img src="/icons/arrow-down.png" alt="">
+            <div class="state group flex flex-row flex-shrink justify-center content-center">
+                <h5 class="hover:font-bold hover:text-green-primary hover:border-b-2 hover:border-green-primary ">
+                    شعبه
+                </h5>
+                <div class="bar hidden group-hover:block group-hover:relative">
+                    <ul>
+                        <li>اکباتان</li>
+                        <li>اقدسیه</li>
+                        <li>ونک</li>
+                        <li>چالوس</li>
+                    </ul>
+                </div>
+                <img src="/icons/" alt="">
+                <img src="/icons/arrow-down.png" alt="arrow" >
             </div>
-            <div class="state flex flex-row justify-center content-center hover:font-bold hover:text-green-primary " >
-                منو
-                <img src="/icons/arrow-down.png" alt="">
+            <div class="state flex flex-row flex-shrink justify-center content-center
+                        active:" >
+                <h5 class="hover:font-bold hover:text-green-primary hover:border-b-2 hover:border-green-primary ">
+                    منو
+                </h5>
+                <div class="bar hidden">
+                    <ul>
+                        <li>غذای اصلی</li>
+                        <li>پیش غذا</li>
+                        <li>دسر</li>
+                        <li>نوشیدنی</li>
+                    </ul>
+                </div>
+                <img src="/icons/arrow-down.png" alt="arrow">
             </div>
-            <div class="state">
+            <div class="state flex flex-row flex-shrink justify-center content-center hover:font-bold hover:text-green-primary">
                 اعطای نمایندگی
             </div>
-            <div class="state">
+            <div class="state flex flex-row flex-shrink justify-center content-center hover:font-bold hover:text-green-primary">
                 درباره ما
             </div>
-            <div class="state">
+            <div class="state flex flex-row flex-shrink justify-center content-center hover:font-bold hover:text-green-primary">
                 تماس با ما
             </div>
         </div>
-        <div class="flex flex-row basis 1/4" >
-            <div class="bg-green-300">
+        <div class="flex flex-row items-center gap-2 basis 1/4" >
+            <div class="flex items-center justify-center gap-[2px] bg-green-tint-1 rounded-sm p-2 ">
                 <img src="/icons/user.png" alt="">
             </div>
-            <div class="bg-green-300">
+            <div class="flex items-center justify-center gap-[2px] bg-green-tint-1 rounded-sm p-2  ">
                 <img src="/icons/shopping-cart.png" alt="">
             </div>
-            <div class="bg-green-300">
+            <div class="flex items-center justify-center gap-[2px] bg-green-tint-1 rounded-sm p-2 ">
                 <img src="/icons/search-normal.png" alt="">
             </div>
         </div>
