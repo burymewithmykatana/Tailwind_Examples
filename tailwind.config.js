@@ -11,8 +11,11 @@ module.exports = {
     extend: {
       colors:{
         'green-primary': '#417F56',
-      }
-
+        'green-tint-1': '#E5F2E9',
+      },
+      fontFamily:{
+        'Estedad-VF': 'Estedad-VF'
+      },
     },
   },
   plugins: [],
